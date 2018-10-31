@@ -28,7 +28,9 @@ public class InputLab {
         
         System.out.println("Type in your balance here:");
         
-        while(scan.hasNext()) {
+      
+             
+         }  while(scan.hasNext()) {
          bal = scan.nextInt();
          
          if(bal >= 59.99){
@@ -38,8 +40,6 @@ public class InputLab {
              out.println("With a balance  " + bal + ", you do not have enough"
                      + " to buy the new video game.");
          
-             
-         }
         
         }
     }
